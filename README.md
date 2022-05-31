@@ -7,8 +7,7 @@ Repositório criado para armazenar anotações sobre o sistema operacional **Lin
 1. [Como utilizar o Linux dentro do Windows](#id01)
 2. [Comandos do Terminal](#id02)
 * 2.1. [Comandos Básicos](#id02.1)
-* 2.2.
-3.
+
 
 
 <a name="id01"></a>
@@ -26,10 +25,60 @@ Depois de instalado, caso opte pelo Linux Ubuntu e ele não abra em **tela cheia
 🔗 [Vídeo "Instalar Adicionais para Convidado Virtualbox Ubuntu 22.04 | Deixar Ubuntu em Tela Cheia VirtualBox"](https://www.youtube.com/watch?v=CLlHSIupiSc&ab_channel=DITOCARVALHO)
 
 
+
 <a name="id02"></a>
 ## 2. Comandos do Terminal
 A seguir, comandos utilizados para manipular pastas, arquivos, e outras funcionalidades no terminal do Linux.
 
 <a name="id02.1"></a>
 ### 2.1. Comandos Básicos
+
+Manipular o terminal:
+```
+$ clear [limpa o terminal]
+$ pwd [informa o diretório do terminal]
+$ cd Desktop [mudar diretório]
+$ echo "Bem vindo ao curso de Linux da Alura" [impirmir no terminal]
+$ man comando [exibe informações de manual de um comando específicado]
+
+```
+Listar diretórios:
+```
+$ ls [listar diretórios]
+$ ls -l [listar diretórios e permissões]
+$ chmod +x realizabackup [adiciona permissão de execução]
+```
+Manipular arquivos:
+```
+$ echo "Faithless" > musicas-favoritas.txt [criar ou sobrescrever arquivo]
+$ echo "REM" >> musicas-favoritas.txt [adicionar texto ao arquivo]
+$ cat musicas-favoritas.txt [abrir arquivo no terminal]
+$ mv mensagem.txt bemvindo2.txt [renomear arquivo]
+$ cp bemvindo2.txt bemvindoCópia.txt [copiar arquivo]
+$ rm arquivo3.txt [excluir arquivo]
+```
+Manipular diretórios:
+```
+$ mkdir workspace [criar diretório]
+$ rmdir workspace [excluir diretório]
+$ rm -r workspace [excluir diretório que tenha conteúdo]
+```
+Compactar arquivos e diretórios:
+```
+$ zip -r work.zip workspace/ [compactar em Zip, com subdiretórios]
+$ unzip work.zip [descompactar]
+```
+Listar processos do computador:
+```
+$ ps [lista os processos que estão rodando]
+$ ps -ef [lista com mais detalhes]
+$ top [lista processos e consumo de CPU]
+$ ps -ef | grep firefox [para filtrar algum processo pelo nome]
+
+```
+
+
+
+
+
 
