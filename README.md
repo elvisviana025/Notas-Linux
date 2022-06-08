@@ -8,7 +8,7 @@ Repositório criado para armazenar anotações sobre o sistema operacional **Lin
 2. [Comandos do Terminal](#id02)
 * 2.1. [Comandos Básicos](#id02.1)
 
-
+<br>
 
 <a name="id01"></a>
 ## 1. Como utilizar o Linux dentro do Windows
@@ -20,11 +20,15 @@ Um dos softwares mais utilizados para a virtualização é o **Virtualbox** da o
 
 🔗 [Playlist "Curso de Virtualização"](https://www.youtube.com/playlist?list=PLAp37wMSBouCqJnY-Qck_XDwplEud3ELc)
 
+Veja nesse artigo da Alura mais informações sobre virtualização:
+
+🔗 [Artigo "VirtualBox e Máquinas Virtuais"](https://www.alura.com.br/artigos/virtualbox-maquinas-virtuais?utm_source=gnarus&utm_medium=timeline)
+
 Depois de instalado, caso opte pelo Linux Ubuntu e ele não abra em **tela cheia**, recomendo este vídeo com um tutorial para abrir o sistema operacional em tela cheia e deixá-lo mais rápido:
 
 🔗 [Vídeo "Instalar Adicionais para Convidado Virtualbox Ubuntu 22.04 | Deixar Ubuntu em Tela Cheia VirtualBox"](https://www.youtube.com/watch?v=CLlHSIupiSc&ab_channel=DITOCARVALHO)
 
-
+<br>
 
 <a name="id02"></a>
 ## 2. Comandos do Terminal
