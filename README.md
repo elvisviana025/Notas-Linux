@@ -60,6 +60,7 @@ $ cat musicas-favoritas.txt [abrir arquivo no terminal]
 $ mv mensagem.txt bemvindo2.txt [renomear arquivo]
 $ cp bemvindo2.txt bemvindoCópia.txt [copiar arquivo]
 $ rm arquivo3.txt [excluir arquivo]
+$ find ~ -name teste.txt [procura local de um arquivo]
 ```
 Manipular diretórios:
 ```
