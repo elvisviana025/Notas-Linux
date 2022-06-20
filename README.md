@@ -57,10 +57,14 @@ Manipular arquivos:
 $ echo "Faithless" > musicas-favoritas.txt [criar ou sobrescrever arquivo]
 $ echo "REM" >> musicas-favoritas.txt [adicionar texto ao arquivo]
 $ cat musicas-favoritas.txt [abrir arquivo no terminal]
+$ tac musicas-favoritas.txt [abrir arquivo no terminal ao contrário]
+$ head musicas-favoritas.txt [exibe primeiras linhas de arquivo]
+$ tail musicas-favoritas.txt [exibe últimas linhas de arquivo]
 $ mv mensagem.txt bemvindo2.txt [renomear arquivo]
 $ cp bemvindo2.txt bemvindoCópia.txt [copiar arquivo]
 $ rm arquivo3.txt [excluir arquivo]
 $ find ~ -name teste.txt [procura local de um arquivo]
+$ nano teste.txt [abre editor de texto]
 ```
 Manipular diretórios:
 ```
