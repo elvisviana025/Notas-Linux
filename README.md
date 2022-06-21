@@ -54,6 +54,7 @@ $ chmod +x realizabackup [adiciona permissão de execução]
 ```
 Manipular arquivos:
 ```
+$ touch arquivo.txt [criar arquivo]
 $ echo "Faithless" > musicas-favoritas.txt [criar ou sobrescrever arquivo]
 $ echo "REM" >> musicas-favoritas.txt [adicionar texto ao arquivo]
 $ cat musicas-favoritas.txt [abrir arquivo no terminal]
